@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Time converter</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -12,15 +12,35 @@
 <body>
     <div id="header"></div>
 
-    <div id="main">
+    <div id="main" >
 
-        <div class="block1">
+        <div align="center" class="block1">
+
+            <input type="text" id= 'input'>
+            <br><br><br>
 
         </div>
-
-
-
+        <form id="options">
+            <input type="radio" name="conversionOptions" id="hrs2mins" value="Hrs2Mins" class="radOpts">
+            <label for="hrs2mins">hours to minutes</label><br><br>
+            <input type="radio" name="conversionOptions" id="hrs2secs" value="Hrs2Secs" class="radOpts">
+            <label for="hrs2secs">hours to seconds</label><br><br>
+        </form>
+        <div align="center" class="fact">
+            <br><p id="factPara">
+                
+            </p><br><br>
+        </div>
+        <div align="center" id="convButton">
+            <button  id="convert" onclick="convert()" >Convert</button>
+        </div>
         
+        <!-- <div align="center" id="result">
+
+            
+
+        </div>
+         -->
     </div>
 
     <div id="footer"></div>

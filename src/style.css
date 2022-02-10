@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#main {
+  margin: 20%;
+}
+
+#input {
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+
+#options{
+    margin-left: 4em;
+}
+.radOpts{
+    margin-right: 20px;
+}
+
+#convert{
+    padding: 10px 95px;
+}
